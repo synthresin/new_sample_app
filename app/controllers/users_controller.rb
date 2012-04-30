@@ -6,4 +6,7 @@ class UsersController < ApplicationController
 	def new
   		@title = "sign up"
 	end
+	def dummy
+		@title = "dummy"
+	end
 end
