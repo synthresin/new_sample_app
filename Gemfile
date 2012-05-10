@@ -7,9 +7,11 @@ gem 'rails', '3.2.0'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'gravatar_image_tag', '1.1.2'
+gem 'will_paginate'
 
 group :development do 
 	gem 'rspec-rails'
+  gem 'faker'
 end
 
 group :test do
